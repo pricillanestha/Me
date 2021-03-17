@@ -1,0 +1,127 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyPNrn2aycFnCZxw+w73BObh",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/pricillanestha/Me/blob/main/Tugas%20Team%20Teaching%20AI\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "YpZVeLkmY71h"
+      },
+      "source": [
+        "word = \"Ada berapa bebek di bebek di sawah ?\""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "32lj1_wzaPee"
+      },
+      "source": [
+        "def HitungKalimat(kalimat):\r\n",
+        "  jumlah = 0\r\n",
+        "  for i in kalimat:\r\n",
+        "    jumlah +=1\r\n",
+        "    return jumlah "
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KyTlTHk8aZu4",
+        "outputId": "63acf5f6-9833-4573-da44-e2e87d5e86e9"
+      },
+      "source": [
+        "print(\"Terdapat\", HitungKalimat(word), \"karakter\") "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Terdapat 1 karakter\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zVzG5u7FeVWC"
+      },
+      "source": [
+        "Word = \"Biskuit yang dimakan nenek enak\""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "z6II-looeddH"
+      },
+      "source": [
+        "def HitungKalimat(kalimat):\r\n",
+        "  jumlah = 0\r\n",
+        "  for i in kalimat:\r\n",
+        "    jumlah +=1\r\n",
+        "  return jumlah"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LwtFU3giep1C",
+        "outputId": "fa03b239-8f4e-471a-adf0-59773ec7d2ef"
+      },
+      "source": [
+        "print(\"Terdapat\", HitungKalimat(word),\"karakter\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Terdapat 36 karakter\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
