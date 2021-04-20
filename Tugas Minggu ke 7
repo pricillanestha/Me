@@ -2,7 +2,7 @@
 # Praktikum ini memberikan pengenalan teknik pemrosesan gambar dasar menggunakan library computer vision OpenCV dan beberapa library analisis data standar dengan Python. 
 # Pengetahuan tentang pemrosesan gambar dan pemrograman Python tidak diperlukan untuk workshop ini, tetapi akan membantu Anda untuk memahami apa yang Anda kerjakan
 # The source of this notebook is located at https://github.com/xn2333/OpenCV/blob/master/Seminar_Image_Processing_in_Python.ipynb*\
-
+# Link : https://karmatnspyphuntsho-tijtech.medium.com/introduction-to-image-processing-using-opencv-in-google-colab-a449306cb395
 
 # Step1: Load the Dependencies
 # Anda akan memanggil beberapa libraries yang akan digunakan selama praktikum ini: numpy, pandas, cv2, skimage, PIL, matplotlib
