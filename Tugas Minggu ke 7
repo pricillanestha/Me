@@ -3,6 +3,7 @@
 # Pengetahuan tentang pemrosesan gambar dan pemrograman Python tidak diperlukan untuk workshop ini, tetapi akan membantu Anda untuk memahami apa yang Anda kerjakan
 # The source of this notebook is located at https://github.com/xn2333/OpenCV/blob/master/Seminar_Image_Processing_in_Python.ipynb*\
 # Link : https://karmatnspyphuntsho-tijtech.medium.com/introduction-to-image-processing-using-opencv-in-google-colab-a449306cb395
+# Jupiter : https://colab.research.google.com/drive/1RWFGcQx8KTlvjZJN79M2mhgX5UFARdVe?usp=sharing#scrollTo=hRIpZTk0oGtk
 
 # Step1: Load the Dependencies
 # Anda akan memanggil beberapa libraries yang akan digunakan selama praktikum ini: numpy, pandas, cv2, skimage, PIL, matplotlib
